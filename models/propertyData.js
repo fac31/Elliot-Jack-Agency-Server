@@ -3,11 +3,11 @@ const mongoose = require('mongoose')
 const propertyDataSchema = new mongoose.Schema({
     propertyImg: {
         type: String,
-        required: true,
+        required: true
     },
     price: {
         type: String,
-        required: true,
+        required: true
     },
     sold: {
         type: Boolean,
